@@ -1,0 +1,70 @@
+[debug] [2024-11-10T15:42:42.676Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T15:42:42.678Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-11-10T15:42:42.679Z] CLI Version:   13.24.2
+[debug] [2024-11-10T15:42:42.679Z] Platform:      win32
+[debug] [2024-11-10T15:42:42.679Z] Node Version:  v20.15.0
+[debug] [2024-11-10T15:42:42.679Z] Time:          Sun Nov 10 2024 21:12:42 GMT+0530 (India Standard Time)
+[debug] [2024-11-10T15:42:42.679Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T15:42:42.823Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T15:42:42.823Z] > authorizing via signed-in user (shamsai2118@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-11-10T15:42:42.843Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-10T15:42:42.843Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-11-10T15:42:42.855Z] [hub] writing locator at C:\Users\ACER\AppData\Local\Temp\hub-krivi-criative-trial.json
+[debug] [2024-11-10T15:42:42.892Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-10T15:42:42.892Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-10T15:42:42.893Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-11-10T15:42:42.893Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-11-10T15:42:42.896Z] defaultcredentials: writing to file C:\Users\ACER\AppData\Roaming\firebase\shamsai2118_gmail_com_application_default_credentials.json
+[debug] [2024-11-10T15:42:42.898Z] Setting GAC to C:\Users\ACER\AppData\Roaming\firebase\shamsai2118_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\ACER\\AppData\\Roaming\\firebase\\shamsai2118_gmail_com_application_default_credentials.json"}}
+[debug] [2024-11-10T15:42:42.900Z] Checked if tokens are valid: true, expires at: 1731256647359
+[debug] [2024-11-10T15:42:42.900Z] Checked if tokens are valid: true, expires at: 1731256647359
+[debug] [2024-11-10T15:42:42.901Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/krivi-criative-trial/adminSdkConfig [none]
+[debug] [2024-11-10T15:42:43.348Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/krivi-criative-trial/adminSdkConfig 200
+[debug] [2024-11-10T15:42:43.348Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/krivi-criative-trial/adminSdkConfig {"projectId":"krivi-criative-trial","storageBucket":"krivi-criative-trial.firebasestorage.app"}
+[debug] [2024-11-10T15:42:43.369Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-11-10T15:42:43.369Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-11-10T15:42:43.369Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\ACER\\.cache\\firebase\\emulators\\ui-v1.14.0\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false,"port":4000} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\ACER\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.14.0\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false,\"port\":4000}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-11-10T15:42:43.556Z] Debugger attached.
+ {"metadata":{"emulator":{"name":"ui"},"message":"Debugger attached.\r\n"}}
+[debug] [2024-11-10T15:42:43.776Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-11-10T15:42:43.777Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\craftsy\krivibackend\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\craftsy\\krivibackend\\functions\" for Cloud Functions..."}}
+[debug] [2024-11-10T15:42:43.805Z] Validating nodejs source
+[debug] [2024-11-10T15:42:45.368Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "emulator": "firebase emulators:start",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "src/server.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-11-10T15:42:45.369Z] Building nodejs source
+[debug] [2024-11-10T15:42:45.369Z] Failed to find version of module node: reached end of search path D:\craftsy\krivibackend\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2024-11-10T15:42:45.373Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-11-10T15:42:45.382Z] Found firebase-functions binary at 'D:\craftsy\krivibackend\functions\node_modules\.bin\firebase-functions'

@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "krivi-criative-trial"
+  },
+  "etags": {
+    "krivi-criative-trial": {
+      "extensionInstances": {}
+    }
+  }
+}
