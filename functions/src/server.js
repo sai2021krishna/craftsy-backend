@@ -1,5 +1,6 @@
 require("firebase-functions/v2/firestore");
 const express = require("express");
+const cors = require("cors");
 const { onRequest } = require("firebase-functions/v2/https");
 const { initializeApp } = require("firebase-admin/app");
 
@@ -9,6 +10,8 @@ initializeApp();
 
 const { categoryRouter } = require("./routes/category.route");
 const { productRouter } = require("./routes/products.route");
+
+app.use(cors());
 
 app.use("/category", categoryRouter);
 app.use("/products", productRouter);
